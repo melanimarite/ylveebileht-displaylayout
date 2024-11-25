@@ -4,12 +4,14 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=devide-width, initial-scale=1.0"/>
     <title>Display layout</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Minu Bränd</h1>
+            <h1>Minu <span class="varv">Bränd</span></h1>
         </div>
         <nav>
             <ul>
@@ -20,13 +22,32 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <article>
-            <h2>Pealkiri</h2>
+            <h2>Tere tulemast</h2>
             <p>Peamine artikkel, mis katab tähtsat teemat. Siia tuleb rohkem infot ja tekstilist sisu.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis facere quisquam, corrupti nemo incidunt ipsum.</p>
+        
+            <section class="gallery">
+                <h3>Pildigalerii</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/blackskull.jpg" alt="Pilt 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/purplewitch.jpg" alt="Pilt 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/tarot.jpg" alt="Pilt 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/crystal.jpg" alt="Pilt 4">
+                </div>
+            </div>
+        </section>
+
         </article>
-        <aside>
+        <aside class="sidebar">
             <h3>Külgriba</h3>
             <ul>
                 <li>Link 1</li>
@@ -35,41 +56,28 @@
                 <li>Link 4</li>
             </ul>
         </aside>
-        <section class="gallery">
-            <h3>Pildigalerii</h3>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://www.pinterest.com/pin/13370130138020944/" alt="Pilt 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://www.pinterest.com/pin/8514686790051500/" alt="Pilt 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://www.pinterest.com/pin/892275744920675166/" alt="Pilt 3">
-            </div>
-            <div class="gallery-item"></div>
-                <img src="https://www.pinterest.com/pin/1407443628790893/" alt="Pilt 4">
-            </div>
-        </div>
-    </section>
+        
 </main>
 
 <footer>
-    <div class="social">
+    <div class="social-media">
         <p>Jälgi meid:</p>
-        <a href="#">
-            <img src="" alt="Facebook">
-        </a>
-        <a href="#">
-            <img src="" alt="Twitter">
-        </a>
-        <a href="#">
-            <img src="" alt="Instagram">
-        </a>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
     </div>
     <div class="copy">
         <p>&copy; 2024 Minu Bränd</p>
     </div>
 </footer>
+
 </body>
 </html>
