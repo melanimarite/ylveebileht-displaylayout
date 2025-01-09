@@ -1,0 +1,140 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background:black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin: 20px;
+}
+
+.varv {
+  color: #442858;
+  font-weight: bold;
+}
+
+.logo h1 {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
+
+.container {
+  display: grid; 
+  grid-template-columns: 3fr 1fr; /* Jagab veerud: põhisisu (3 osa) ja külgriba (1 osa) */
+  gap: 16px; 
+  max-width: 90%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: rgb(48, 48, 48); 
+  border-radius: 8px; 
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #442858; 
+  color: white; 
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+article {
+  background-color: rgb(223, 205, 221);
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.gallery-grid {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); /* Määran kaks veergu */
+  gap: 16px; 
+  max-width: 100%; 
+  margin: 0 auto; 
+  background-color: rgb(223, 205, 221);
+}
+
+.gallery-item img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+.gallery h3 {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column; /* Tekst ja logod vertikaalselt */
+  align-items: center; 
+  gap: 10px; 
+  margin-bottom: 10px;
+}
+
+.social-media p {
+  margin: 0; 
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex; /* Paigutan logod üksteise kõrvale */
+  gap: 10px; /* Lisan ruumi logode vahele */
+  justify-content: center; 
+}
+
+.social-icons a {
+  color: white; 
+  font-size: 30px; 
+  transition: color 0.2s, transform 0.2s;
+}
+
+.social-icons a:hover {
+  color: #442858; /* Hover-värv */
+  transform: scale(1.3); /* Suurendab hoveri ajal */
+}
+
+.copy {
+  text-align: center; 
+  color: white; 
+  font-size: 14px; /* Väiksem tekst autoriõiguse jaoks */
+  margin-top: 10px;
+}
+
+
+
